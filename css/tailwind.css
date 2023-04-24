@@ -1034,6 +1034,10 @@ video {
   display: flex;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .max-w-prose {
   max-width: 65ch;
 }
