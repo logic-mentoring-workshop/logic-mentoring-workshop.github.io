@@ -1034,12 +1034,24 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .w-40 {
   width: 10rem;
 }
 
 .max-w-prose {
   max-width: 65ch;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.table-auto {
+  table-layout: auto;
 }
 
 .flex-row {
@@ -1062,6 +1074,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
