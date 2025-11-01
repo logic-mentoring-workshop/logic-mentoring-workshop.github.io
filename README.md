@@ -9,6 +9,6 @@ npm install
 
 Run:
 ```bash
-npx tailwindcss -o css/tailwind.css --watch
+npx @tailwindcss/cli -o css/tailwind.css --watch
 python -m http.server
 ```
